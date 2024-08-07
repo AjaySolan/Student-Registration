@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1 class="title">Student Registration System</h1>
+        <p class="description">Hello Dear Students, Complete your registration for your exam by your self. After registration you will know the patterns of exam.</p>
+        <p class="note">Note: It is compulsory to accomplish your registration nor you will not able to give an exam.</p>
+    </header>
+
+    <main id="main">
+        <section id="input">
+            <article>
+                
+                <!-- <label for="name">Student Name: </label> -->
+                <input type="text" id="name" name="name" placeholder="Student Name" required > 
+
+                <!-- <label for="stuName">Student ID: </label> -->
+                <input type="number" id="id" name="stuname" placeholder="Student ID" required> <br>
+
+                <!-- <label for="email">Email ID: </label> -->
+                <input type="email" id="email" name="email" placeholder="Email" required>                   
+
+                <!-- <label for="contNo">Contact No. : </label> -->
+                <input type="number" id="contNo" name="contno." placeholder="contact No." required> <br>
+                
+                <button class="btnSubmit">Register</button>
+            </article>
+        </section>
+
+        <section id="display">
+            <article class="container">
+                <table class="table">
+                    <thead class="thead">                        
+                            <th>Name</th>
+                            <th>Student ID</th>
+                            <th>E-mail</th>
+                            <th>Contact No.</th>
+                    </thead>
+                    
+                    <tbody class="inputdata">
+                        
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+#header{
+    text-align: center;
+    margin: 10px;
+}
+
+.title{
+    margin: 10px;
+    font-size: 55px;
+    font-weight: bold;
+    color:orange;
+}
+
+.description{
+    font-size: larger;
+    margin: 10px;
+}
+
+.note{
+    font-weight: lighter;
+    font-size: medium;
+    color: red;
+}
+
+article{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#input{
+    font-size: 30px;
+}
+
+input{
+    border-color: aquamarine;
+    margin: 2px;
+    text-align: center;
+    font-size:  40px;
+    border-radius: 30px;
+}
+
+input:hover{
+    background-color: white;
+}
+
+.btnSubmit{
+    font-size: 20px;
+    height: 40px;
+    width: 105px;
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    border-color: aquamarine;
+}
+
+.btnSubmit:hover{
+    background-color: green;
+    transform: scale(1.1);
+}
+
+#display{
+    margin: 0 200px;
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    text-align:center;
+}
+
+th{
+    border-radius: 20px;
+    font-size: 25px;
+    width: 300px;
+    /* border: 2px solid white; */
+}
+
+td{
+    border-radius: 20px;
+    font-size: 25px;
+    width: 300px;
+}
+
+.deleteBtn , .editBtn{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 1px;
+    width: 70px;
+}
+
+.deleteBtn, .editBtn:hover{
+    background-color: aqua;
+}
+
+.container{
+    max-height: 200px;
+    overflow-y: auto;
+}
